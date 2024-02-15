@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
-
-
 <head>
 <meta charset="utf-8">
-<title>HolidayInn  | Homepage </title>
+<title>Holiday Inn  | Homepage </title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/revolution-slider.css" rel="stylesheet">
@@ -13,7 +11,7 @@
 <link rel="icon" href="images/favicon1.png" type="image/x-icon">
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="HolidayInn " content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <link href="css/responsive.css" rel="stylesheet">
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
@@ -21,12 +19,10 @@
 
 <body>
 
-<div class="page-wrapper">
- 	
-    
+<div class="page-wrapper">  
  	
     <!-- Main Header-->
-    <?php include'header.php';?>
+   <?php include'header.php';?>
     <!--End Main Header -->
     
     <!-- Hidden Navigation Bar -->
@@ -41,16 +37,19 @@
         
             <!-- .logo -->
             <div class="logo text-center">
-                <a href="index.html"><img src="images/logo2.png" alt="Satek"></a>			
+                <a href="index.php"><img src="images/logo.png" height="10" width="200" alt="Satek"></a>			
             </div><!-- /.logo -->
             
             <!-- .Side-menu -->
             <div class="side-menu">
             	<!-- .navigation -->
                 <ul class="navigation clearfix">
-                    <li class="current dropdown"><a href="index.php">Home</a></li>
-                        
-                
+                    <li class="current dropdown"><a href="#">Home</a>
+                        <ul>
+                            <li><a href="index.html">Homepage One</a></li>
+                            <li><a href="index-2.html">Homepage Two</a></li>
+                        </ul>
+                    </li>
                     <li><a href="about-us.html">About Us</a></li>
                     <li class="dropdown"><a href="#">Pages</a>
                         <ul>
@@ -66,8 +65,6 @@
                             <li><a href="single-room.html">Single room</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#">Restaurent</a>  </li>                      
-              
                     <li><a href="reservation.html">Reservation</a></li>
                     <li class="dropdown"><a href="#">Gallery</a>
                         <ul>
@@ -75,7 +72,7 @@
                             <li><a href="gallery-2.html">Gallery two</a></li>
                         </ul>
                     </li>
-                    <li><a href="contact.php">Contact us</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
                  </ul>
             </div>
             <!-- /.Side-menu -->
@@ -824,9 +821,8 @@
     <!--NewsLetter-->
     
     <!--Main Footer-->
-   <?php include'footer.php' ;?>
-     <!--End Main Footer-->
-    
+   <?php include'footer.php';?>
+    <!-- End footer-->
 </div>
 <!--End pagewrapper-->
 
@@ -843,6 +839,4 @@
 <script src="js/wow.js"></script>
 <script src="js/script.js"></script>
 </body>
-
-
 </html>
