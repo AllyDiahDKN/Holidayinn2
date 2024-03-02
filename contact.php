@@ -21,9 +21,6 @@
 
 <div class="page-wrapper">
  	
-    <!-- Preloader -->
-    <div class="preloader"></div>
- 	
     <!-- Main Header-->
     <?php include'contactHeader.php';?>
     <!-- Main Menu End-->
@@ -43,67 +40,8 @@
     <!--End Main Header -->
     
     <!-- Hidden Navigation Bar -->
-    <section class="hidden-bar right-align">
-        
-        <div class="hidden-bar-closer">
-            <button class="btn"><i class="fa fa-close"></i></button>
-        </div>
-        
-        <!-- Hidden Bar Wrapper -->
-        <div class="hidden-bar-wrapper">
-        
-            <!-- .logo -->
-            <div class="logo text-center">
-                <a href="index.php"><img src="images/logo2.png" alt="HolidayInn"></a>			
-            </div><!-- /.logo -->
-            
-            <!-- .Side-menu -->
-            <div class="side-menu">
-            	<!-- .navigation -->
-                <ul class="navigation clearfix">
-                    <li class="dropdown"><a href="#">Home</a> </li>
-                        
-                
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li class="dropdown"><a href="#">Pages</a>
-                        <ul>
-                            <li><a href="acommodation.html">Acommodation</a></li>
-                            <li><a href="meeting-events.html">Meeting & events</a></li>
-                            <li><a href="wellness-spa.html">wellness & spa</a></li>
-                            <li><a href="offer.html">Special Offer</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#">Rooms</a>
-                        <ul>
-                            <li><a href="rooms.html">Rooms</a></li>
-                            <li><a href="single-room.html">Single room</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#">Restaurent</a></li>
-                    <li><a href="reservation.html">Reservation</a></li>
-                    <li class="dropdown"><a href="#">Gallery</a>
-                        <ul>
-                            <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="gallery-2.html">Gallery two</a></li>
-                        </ul>
-                    </li>
-                    <li class="current"><a href="contact.html">Contact us</a></li>
-                 </ul>
-            </div>
-            <!-- /.Side-menu -->
-        
-            <div class="social-icons">
-                <ul>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-            </div>
-        
-        </div><!-- / Hidden Bar Wrapper -->
-    </section>
-    <!-- / Hidden Bar -->
+    <?php include'hidden-bar.php';?>
+<!--end of Hidden Navigation Bar-->
     
     <!--Map Section-->
     <section class="map-section">

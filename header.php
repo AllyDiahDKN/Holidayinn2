@@ -6,7 +6,7 @@
             	<div class="outer-container clearfix">
                     <!--Logo Box-->
                     <div class="logo-box">
-                        <div class="logo"><a href="index.php"><img src="images/logo2.png" alt="Satek"></a></div>
+                        <div class="logo"><a href="index.php"><img src="images/logo2.png"  width="250"  alt="HolidayInn"></a></div>
                     </div>
                     
                     <!--Nav Outer-->
@@ -24,24 +24,20 @@
                             
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
-                                    <li class="current dropdown"><a href="#">Home</a></li>                                 	
+                                    <li><a href="index.php">Home</a></li>                                 	
                                   
-                                    <li><a href="index.php">About Us</a></li>                                    
-                                    <li class="dropdown"><a href="rooms.php">Rooms</a>
-                                    	<ul>
-                                            <li><a href="rooms.php">Rooms</a></li>
-                                            <li><a href="room.php">Single room</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="reservation.php">Reservation</a></li>
+                                    <li ><a href="rooms.php">Rooms</a> </li>                   
+                                   
+                                    <li><a href="meeting-events.php">Meeting & Conference </a></li>
                                     <li><a href="Dining.php">Dining</a></li>
-                                    <li class="dropdown"><a href="#">Gallery</a>
-                                    	<ul>
-                                            <li><a href="gallery.html">Gallery</a></li>
-                                            <li><a href="gallery-2.html">Gallery two</a></li>
-                                        </ul>
-                                    </li>
+                                    
                                     <li><a href="contact.php">Contact</a></li>
+                                    <li>
+
+                                    <div class="promotion-box">
+                                        <a class="theme-btn btn-style-six" href="https://www.ihg.com/holidayinn/hotels/gb/en/dar-es-salaam/desas/hoteldetail?cm_mmc=GoogleMaps-_-HI-_-TZ-_-DESAS">Book with us</a>
+                                    </div>
+                                    </li>
                                  </ul>
                             </div>
                         </nav>

@@ -11,13 +11,13 @@
                             <!--Footer Column-->
                         	<div class="footer-column col-md-7 col-sm-6 col-xs-12">
                             	<div class="footer-widget about-widget">
-                                	<div class="footer-logo"><figure><a href="index.html"><img src="images/footer-logo.png" alt=""></a></figure></div>
+                                	<div class="footer-logo"><a href="index.php"><b><font color="white" style="font-size: 30px";>Holiday Inn</font></b></a></div>
                                     <div class="widget-content">
-                                    	<div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum has been the industry's standard dummy text ever since scrambledit to make over type specimen book.</div>
+                                    	<div class="text">Escape to refined luxury at Holiday Inn Dar Es Salaam. Immerse yourself in unparalleled comfort, exceptional service, and a host of amenities designed to elevate your stay. Experience the essence of sophistication amidst the vibrant energy of Tanzania's capital city.</div>
                                         <div class="social-links">
 											<a href="#"><span class="fa fa-facebook-f"></span></a>
 											<a href="#"><span class="fa fa-twitter"></span></a>
-											<a href="#"><span class="fa fa-google-plus"></span></a>
+											<a href="#"><span class="fa fa-instagram"></span></a>
 											<a href="#"><span class="fa fa-linkedin"></span></a>
 										</div>
                                         
@@ -50,27 +50,36 @@
                     	<div class="row clearfix">
                             
                             <!--Footer Column-->
-                        	<div class="footer-column col-md-6 col-sm-6 col-xs-12">
                             	<div class="footer-widget twitter-widget">
-                                    <h2>Latest News</h2>
+                                    <h2>Our Hotels</h2>
                                     <!--widget Content-->
                         			<div class="widget-content">
+                                        <div class="footer-column col-md-6 col-sm-6 col-xs-12">
                                         <div class="feed">
-                                            <span class="icon fa fa-twitter"></span>
-                                            <div class="text"> World travel agecny make deal with us . . .</div>
-                                            <span class="month"><a href="#">http://t.o/trgfgfd</a></span>
+                                            <a href=""><img src="images/footer/h5.png" width="100"></a>
                                         </div>
+
                                         <div class="feed">
-                                            <span class="icon fa fa-twitter"></span>
-                                            <div class="text"> World travel agecny make deal with us . . .</div>
-                                            <span class="month"><a href="#">http://t.o/trgfgfd</a></span>
+                                            <a href=""><img src="images/footer/h2.png" width="100"></a>
                                         </div>
                                     </div>
+
+                                        <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                                        <div class="feed">
+                                            <a href=""><img src="images/footer/h3.png" width="100"></a>
+                                        </div>
+
+                                        <div class="feed">
+                                            <a href=""><img src="images/footer/h4.png" width="100"></a>
+                                        </div>
+
+                                    </div>
+                                        
+                                    </div>
                     			</div>
-                            </div>
                             
                             <!--Footer Column-->
-                        	<div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                        	<!-- <div class="footer-column col-md-6 col-sm-6 col-xs-12">
                             	<div class="footer-widget address-widget">
                                 	<h2>Our Address</h2>
                                     <div class="widget-content">
@@ -83,7 +92,7 @@
                                     </div>
                                 </div>
                                 
-                            </div>
+                            </div> -->
                             
                         </div>
                     </div>
@@ -96,7 +105,7 @@
         <!--Footer Bottom-->
          <div class="footer-bottom">
          	<div class="auto-container">
-            	<div class="copyright-text">Copyright Satek &copy; 2016</div>
+            	<div class="copyright-text">Copyright Holiday Inn &copy; 2024</div>
             </div>
         </div>
     </footer>

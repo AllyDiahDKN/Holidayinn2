@@ -1,0 +1,30 @@
+TEMPORARY FILE : COLORS LISTING FOR HOLIDAY INN
+
+
+main color :#509E2F
+
+secondary color :#4baa42
+
+complimentary: grey ,optional #0e38
+
+footer-line below: #28a745
+footer-social-icons-color:#062037
+
+home: arrows :
+#11a913; #2dd32f;
+
+
+ background colors:
+ buttons:#4baa42
+ text:white,black depends 
+ hovers:  maincolors,secondary 
+
+
+Reservation tables :
+background -transparent like :#255220A8
+buttons: secondary color 
+buttons-text-color: white 
+border:#4BAA42
+
+back-top:
+#113e03

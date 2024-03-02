@@ -26,68 +26,7 @@
     <!--End Main Header -->
     
     <!-- Hidden Navigation Bar -->
-    <section class="hidden-bar right-align">
-        
-        <div class="hidden-bar-closer">
-            <button class="btn"><i class="fa fa-close"></i></button>
-        </div>
-        
-        <!-- Hidden Bar Wrapper -->
-        <div class="hidden-bar-wrapper">
-        
-            <!-- .logo -->
-            <div class="logo text-center">
-                <a href="index.php"><img src="images/logo.png" height="10" width="200" alt="Satek"></a>			
-            </div><!-- /.logo -->
-            
-            <!-- .Side-menu -->
-            <div class="side-menu">
-            	<!-- .navigation -->
-                <ul class="navigation clearfix">
-                    <li class="current dropdown"><a href="#">Home</a>
-                        <ul>
-                            <li><a href="index.html">Homepage One</a></li>
-                            <li><a href="index-2.html">Homepage Two</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li class="dropdown"><a href="#">Pages</a>
-                        <ul>
-                            <li><a href="acommodation.html">Acommodation</a></li>
-                            <li><a href="meeting-events.html">Meeting & events</a></li>
-                            <li><a href="wellness-spa.html">wellness & spa</a></li>
-                            <li><a href="offer.html">Special Offer</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#">Rooms</a>
-                        <ul>
-                            <li><a href="rooms.html">Rooms</a></li>
-                            <li><a href="single-room.html">Single room</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="reservation.html">Reservation</a></li>
-                    <li class="dropdown"><a href="#">Gallery</a>
-                        <ul>
-                            <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="gallery-2.html">Gallery two</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="contact.html">Contact us</a></li>
-                 </ul>
-            </div>
-            <!-- /.Side-menu -->
-        
-            <div class="social-icons">
-                <ul>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-            </div>
-        
-        </div><!-- / Hidden Bar Wrapper -->
-    </section>
+    <?php include'hidden-bar.php';?>
     <!-- / Hidden Bar -->
     
     
@@ -98,12 +37,12 @@
             <div class="tp-banner">
                 <ul>
                 	
-                   <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-2.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
-                    <img src="images/main-slider/image-2.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+                    <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-1.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
+                    <img src="images/main-slider/1.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
                     
-                    <div class="tp-caption sfb sfb tp-resizeme"
-                    data-x="left" data-hoffset="15"
-                    data-y="center" data-voffset="30"
+                    <div class="tp-caption sfr sfb tp-resizeme"
+                    data-x="center" data-hoffset="0"
+                    data-y="center" data-voffset="0"
                     data-speed="1500"
                     data-start="500"
                     data-easing="easeOutExpo"
@@ -112,22 +51,78 @@
                     data-elementdelay="0.01"
                     data-endelementdelay="0.3"
                     data-endspeed="1200"
-                    data-endeasing="Power4.easeIn">
-                    	<div class="bg-box">
-                        	<div class="book-title">Book<br><span>Now</span><div class="txt">Best Price Guranteed</div></div>
-                            <!--Promotion Box-->
-                            <div class="promotion-box">
-                            	<ul class="clearfix">
-                                	<li>CHECK IN <br><div class="date">12 <span class="month">Jun 2016</span></div></li>
-                                    <li>CHECK OUT <br><div class="date">15 <span class="month">Jun 2016</span></div></li>
-                                    <li class="promote">
-                                    	<div class="apply-code">Have Promotion Code?<br><a class="code" href="#">Apply Here</a></div>
-                                    	<a class="theme-btn btn-style-six" href="#">Check availabilty</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    data-endeasing="Power4.easeIn"><div class="text">Come & Enjoy</div></div>
+                    
+                    <div class="tp-caption sfl sfb tp-resizeme"
+                    data-x="center" data-hoffset="0"
+                    data-y="center" data-voffset="60"
+                    data-speed="1500"
+                    data-start="500"
+                    data-easing="easeOutExpo"
+                    data-splitin="none"
+                    data-splitout="none"
+                    data-elementdelay="0.01"
+                    data-endelementdelay="0.3"
+                    data-endspeed="1200"
+                    data-endeasing="Power4.easeIn"><h2>Precious moment with us</h2></div>
+                    
+                    <div class="tp-caption sfl sfb tp-resizeme"
+                    data-x="center" data-hoffset="0"
+                    data-y="center" data-voffset="150"
+                    data-speed="1500"
+                    data-start="500"
+                    data-easing="easeOutExpo"
+                    data-splitin="none"
+                    data-splitout="none"
+                    data-elementdelay="0.01"
+                    data-endelementdelay="0.3"
+                    data-endspeed="1200"
+                    data-endeasing="Power4.easeIn"><a href="#" class="theme-btn btn-style-one">Explore us</a></div>
+                    
+                    </li>
+              
+                    
+                    <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-1.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
+                    <img src="images/main-slider/image-1.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+                    
+                    <div class="tp-caption sfr sfb tp-resizeme"
+                    data-x="center" data-hoffset="0"
+                    data-y="center" data-voffset="0"
+                    data-speed="1500"
+                    data-start="500"
+                    data-easing="easeOutExpo"
+                    data-splitin="none"
+                    data-splitout="none"
+                    data-elementdelay="0.01"
+                    data-endelementdelay="0.3"
+                    data-endspeed="1200"
+                    data-endeasing="Power4.easeIn"><div class="text">Come & Enjoy</div></div>
+                    
+                    <div class="tp-caption sfl sfb tp-resizeme"
+                    data-x="center" data-hoffset="0"
+                    data-y="center" data-voffset="60"
+                    data-speed="1500"
+                    data-start="500"
+                    data-easing="easeOutExpo"
+                    data-splitin="none"
+                    data-splitout="none"
+                    data-elementdelay="0.01"
+                    data-endelementdelay="0.3"
+                    data-endspeed="1200"
+                    data-endeasing="Power4.easeIn"><h2>Precious moment with us</h2></div>
+                    
+                    <div class="tp-caption sfl sfb tp-resizeme"
+                    data-x="center" data-hoffset="0"
+                    data-y="center" data-voffset="150"
+                    data-speed="1500"
+                    data-start="500"
+                    data-easing="easeOutExpo"
+                    data-splitin="none"
+                    data-splitout="none"
+                    data-elementdelay="0.01"
+                    data-endelementdelay="0.3"
+                    data-endspeed="1200"
+                    data-endeasing="Power4.easeIn"><a href="#" class="theme-btn btn-style-one">Explore us</a></div>
                     
                     </li>
                     
@@ -174,39 +169,7 @@
                     data-endeasing="Power4.easeIn"><a href="#" class="theme-btn btn-style-one">Explore us</a></div>
                     
                     </li>
-                    
-                    <li data-transition="zoomin" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-2.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
-                    <img src="images/main-slider/image-2.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
-                    
-                    <div class="tp-caption sfb sfb tp-resizeme"
-                    data-x="center" data-hoffset="0"
-                    data-y="center" data-voffset="30"
-                    data-speed="1500"
-                    data-start="500"
-                    data-easing="easeOutExpo"
-                    data-splitin="none"
-                    data-splitout="none"
-                    data-elementdelay="0.01"
-                    data-endelementdelay="0.3"
-                    data-endspeed="1200"
-                    data-endeasing="Power4.easeIn">
-                    	<div class="bg-box">
-                        	<div class="book-title text-center">Book Now <br><div class="txt">Best Price Guranteed</div></div>
-                            <!--Promotion Box-->
-                            <div class="promotion-box">
-                            	<ul class="clearfix">
-                                	<li>CHECK IN <br><div class="date">12 <span class="month">Jun 2016</span></div></li>
-                                    <li>CHECK OUT <br><div class="date">15 <span class="month">Jun 2016</span></div></li>
-                                    <li class="promote">
-                                    	<div class="apply-code">Have Promotion Code?<br><a class="code" href="#">Apply Here</a></div>
-                                    	<a class="theme-btn btn-style-six" href="#">Check availabilty</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    </li>
+               
                     
                 </ul>
                 
@@ -217,44 +180,93 @@
     <!--End Main Slider-->
     
     
-    <!--Explore Section-->
-    <section class="explore-section">
-    	<div class="auto-container">
-        	<figure class="image-box">
-            	<img src="images/resource/explore.jpg" alt="" />
-            </figure>
-            
+    <!-- About section-->
+   
+    <section class="about-section">
+        <div class="bg-left-icon"></div>
+        <div class="auto-container">
             <div class="row clearfix">
-            	<!--Title Column-->
-                <div class="title-column col-md-5 col-sm-6 col-xs-12">
+                <!--Content Column-->
+                <div class="content-column col-md-6 col-sm-12 col-xs-12">
                     <div class="inner-box">
-                    	<h2>Explore us and<br> Enjoy the unforgettable<br> Moment with us</h2>
-                        <a href="#" class="more-link">Explore Us</a>
+                        <!--Sec Title-->
+                        <div class="sec-title">
+                            <h2>Holiday Inn</h2>
+                            <h3> An IHG- hotel</h3>
+                        </div>
+                        
+                        <div class="text">Indulge in refined luxury at Holiday Inn Dar Es Salaam. With 124 elegantly appointed rooms and suites, our hotel offers a tranquil escape in the heart of the city. From our rooftop helipad beer garden to our infinity pool and Om Shanti Spa, every moment is designed for pure relaxation. Experience unparalleled hospitality and sophistication with us.</div>
+                        <!--Time Cloud-->
+                        <ul class="time-cloud">
+                            <li><span class="icon flaticon-sky"></span>26 <sup>o</sup>C</li>
+                           
+                        </ul>
+                        <a class="learn-more theme-btn btn-style-two" href="https://www.ihg.com/holidayinn/hotels/gb/en/dar-es-salaam/desas/hoteldetail?cm_mmc=GoogleMaps-_-HI-_-TZ-_-DESAS">Book Now</a>
+                        
                     </div>
                 </div>
                 
-                <!--Content Column-->
-                <div class="content-column col-md-7 col-sm-6 col-xs-12">
+                <!--Images Column-->
+                <div class="images-column col-md-6 col-sm-12 col-xs-12">
                     <div class="inner-box">
-                    	<h3>Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum has been the industry's standard dummy text</h3>
-                        <div class="text">When a unknown printer took galley type scrambled it to make an specimen book. It has survived not only five centuries, but also the leap into electronictypesetting remaining essentially unchanged. It was popularised.in the 1960s with the releaseof Letraset sheets containingLorem Ipsum passages, and more recently with desktop</div>
+                        <div class="row clearfix">
+                            <div class="column col-md-12 col-sm-12 col-xs-12">
+                                <figure class="image-box">
+                                    <a data-fancybox-group="about-gallery" href="images/resource/10.jpeg" title="Caption Here" class="lightbox-image"><img src="images/resource/10.jpeg" alt="" /></a>
+                                </figure>
+                            </div>
+                            <div class="column col-md-6 col-sm-6 col-xs-12">
+                                <figure class="image-box">
+                                    <a data-fancybox-group="about-gallery" href="images/resource/about-1.jpg" title="Caption Here" class="lightbox-image"><img src="images/resource/11.jpg" alt="" /></a>
+                                </figure>
+                            </div>
+                            
+                            <!--Column-->
+                            <div class="column col-md-6 col-sm-6 col-xs-12">
+                                <div class="row clearfix">
+                                    <div class="column col-md-6 col-sm-6 col-xs-6">
+                                        <figure class="image-box">
+                                            <a data-fancybox-group="about-gallery" href="images/resource/about-1.jpg" title="Caption Here" class="lightbox-image"><img src="images/resource/12.jpg" alt="" /></a>
+                                        </figure>
+
+                                        <figure class="image-box">
+                                            <a data-fancybox-group="about-gallery" href="images/resource/about-1.jpg" title="Caption Here" class="lightbox-image"><img src="images/resource/15.jpg" alt="" /></a>
+                                        </figure>
+                                    </div>
+                                    <div class="column col-md-6 col-sm-6 col-xs-6">
+                                        <figure class="image-box">
+                                            <a data-fancybox-group="about-gallery" href="images/resource/about-1.jpg" title="Caption Here" class="lightbox-image"><img src="images/resource/13.jpg" alt="" /></a>
+                                        </figure>
+                                    </div>
+                                    <div class="column col-md-6 col-sm-6 col-xs-6">
+                                        <figure class="image-box">
+                                            <a data-fancybox-group="about-gallery" href="images/resource/about-1.jpg" title="Caption Here" class="lightbox-image"><img src="images/resource/14.jpg" alt="" /></a>
+                                        </figure>
+                                    </div>
+                                    <div class="column col-md-6 col-sm-6 col-xs-6">
+                                        <figure class="image-box">
+                                            <a data-fancybox-group="about-gallery" href="images/resource/about-1.jpg" title="Caption Here" class="lightbox-image"><img src="images/resource/15.jpg" alt="" /></a>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
-            
         </div>
-        
     </section>
-    <!--End Explore Section-->
-    
-    <!--Gallery Section-->
+    <!--End About Section-->
+    <!--Rooms Section-->
+
     <section class="gallery-section clearfix">
-    	<div class="full-width-carousel">
-    		<!--Gallery Item-->
+        <div class="full-width-carousel">
+            <!--Gallery Item-->
             <div class="gallery-item">
                 <div class="inner-box">
                     <figure class="image-box">
-                        <img src="images/gallery/1.jpg" alt="" />
+                        <img src="images/rooms/room-1.jpg" alt="" />
                         <!--Overlay Box-->
                         <div class="overlay-box">
                             <div class="inner">
@@ -284,17 +296,17 @@
                 </div>
             </div>
         
-        	<!--Gallery Item-->
+            <!--Gallery Item-->
             <div class="gallery-item">
                 <div class="inner-box">
                     <figure class="image-box">
-                        <img src="images/gallery/2.jpg" alt="" />
+                        <img src="images/rooms/room-2.jpg" alt="" />
                         <!--Overlay Box-->
                         <div class="overlay-box">
                             <div class="inner">
                                 <div class="content">
                                     <h3>Great Choice</h3>
-                                    <h2>Famliy Villa</h2>
+                                    <h2>TWIN ROOM</h2>
                                     <a class="theme-btn btn-style-three" href="#">Start From $119</a>
                                 </div>
                             </div>
@@ -309,7 +321,7 @@
                                 <div class="border-three"></div>
                                 <div class="content">
                                     <h3>Great Choice</h3>
-                                    <h2>Famliy Villa</h2>
+                                    <h2>TWIN ROOM</h2>
                                     <a class="theme-btn btn-style-three" href="#">Start From $119</a>
                                 </div>
                             </div>
@@ -318,17 +330,17 @@
                 </div>
             </div>
         
-        	<!--Gallery Item-->
+            <!--Gallery Item-->
             <div class="gallery-item">
                 <div class="inner-box">
                     <figure class="image-box">
-                        <img src="images/gallery/3.jpg" alt="" />
+                        <img src="images/rooms/room-3.jpg" alt="" />
                         <!--Overlay Box-->
                         <div class="overlay-box">
                             <div class="inner">
                                 <div class="content">
                                     <h3>Perefect Match</h3>
-                                    <h2>Couple villa</h2>
+                                    <h2>SUITE ROOM</h2>
                                     <a class="theme-btn btn-style-three" href="#">Start From $119</a>
                                 </div>
                             </div>
@@ -343,7 +355,7 @@
                                 <div class="border-three"></div>
                                 <div class="content">
                                     <h3>Perefect Match</h3>
-                                    <h2>Couple villa</h2>
+                                    <h2>SUITE ROOM</h2>
                                     <a class="theme-btn btn-style-three" href="#">Start From $119</a>
                                 </div>
                             </div>
@@ -352,17 +364,17 @@
                 </div>
             </div>
         
-        	<!--Gallery Item-->
+            <!--Gallery Item-->
             <div class="gallery-item">
                 <div class="inner-box">
                     <figure class="image-box">
-                        <img src="images/gallery/4.jpg" alt="" />
+                        <img src="images/rooms/room-4.jpg" alt="" />
                         <!--Overlay Box-->
                         <div class="overlay-box">
                             <div class="inner">
                                 <div class="content">
                                     <h3>Master Bed</h3>
-                                    <h2>Sea view villa</h2>
+                                    <h2>EXECUTIVE ROOM</h2>
                                     <a class="theme-btn btn-style-three" href="#">Start From $119</a>
                                 </div>
                             </div>
@@ -377,7 +389,7 @@
                                 <div class="border-three"></div>
                                 <div class="content">
                                     <h3>Master Bed</h3>
-                                    <h2>Sea view villa</h2>
+                                    <h2>EXECUTIVE ROOM</h2>
                                     <a class="theme-btn btn-style-three" href="#">Start From $119</a>
                                 </div>
                             </div>
@@ -388,7 +400,8 @@
             
         </div>
     </section>
-    <!--End Gallery Section-->
+    
+    <!--End Rooms Section-->
     
     <!--Services Section-->
     <section class="services-section" style="background-image:url(images/resource/services-bg.png);">
@@ -399,12 +412,12 @@
                 	<div class="inner-box">
                     	<!--Sec Title-->
                     	<div class="sec-title">
-                        	<h2>Our Service</h2>
-                            <h3>Wht We Do</h3>
+                        	<h2>Facilities</h2>
+                            <h3>Let's Relax</h3>
                         </div>
                         
-                        <div class="text">Lorem Ipsum is simply dummy text the printing and typesetting Lorem Ipsum been industry's standard dummy text eversince it to make lore type specimen book</div>
-                        <a class="see-services theme-btn btn-style-two" href="#">See all services</a>
+                        <div class="text">Discover a haven of luxury and relaxation at our facility, where a wealth of amenities cater to your every need. From tranquil spaces for unwinding to invigorating facilities for wellness, immerse yourself in a world of comfort and rejuvenation. Experience the epitome of sophistication and indulge in a memorable stay with us.</div>
+                        <a class="see-services theme-btn btn-style-two" href="#">Explore More</a>
                     </div>
                 </div>
                 
@@ -471,7 +484,7 @@
                         <h3>Sweet time</h3>
                     </div>
                     
-                    <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum has been the industry's standard dummy text ever since scrambledit to make over type specimen book.</div>
+                    <div class="text">something something nice.</div>
                     
                 </div>
             </div>
@@ -484,7 +497,7 @@
                     <div class="gallery-item-two">
                         <div class="inner-box">
                             <figure class="image-box">
-                                <img src="images/gallery/11.jpg" alt="" />
+                                <img src="images/gallery/ho1.jpg" alt="" />
                                     <!--Overlay Box-->
                                     <div class="overlay-box">
                                         <div class="inner">
@@ -503,7 +516,7 @@
                     <div class="gallery-item-two">
                         <div class="inner-box">
                             <figure class="image-box">
-                                <img src="images/gallery/12.jpg" alt="" />
+                                <img src="images/gallery/ho2.jpg" alt="" />
                                     <!--Overlay Box-->
                                     <div class="overlay-box">
                                         <div class="inner">
@@ -522,7 +535,7 @@
                     <div class="gallery-item-two">
                         <div class="inner-box">
                             <figure class="image-box">
-                                <img src="images/gallery/13.jpg" alt="" />
+                                <img src="images/gallery/ho3.jpg" alt="" />
                                     <!--Overlay Box-->
                                     <div class="overlay-box">
                                         <div class="inner">
@@ -551,13 +564,13 @@
     <section class="event-section bg-white">
     	<div class="auto-container">
         	<!--Sec Title-->
-        	<div class="title-box clearfix">
+        	<div class="title-box clearfix">   
                 <!--Sec Title-->
                 <div class="sec-title">
                     <h2>Our Events</h2>
                     <h3>attend with us</h3>
                 </div>    
-                <div class="text pull-left">Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum</div>
+                <div class="text pull-left">something something nice</div>
                 <a class="theme-btn more-link pull-right" href="#">See all event</a>
             </div>
         
@@ -577,10 +590,10 @@
                         <div class="inner-column">
                             <!--Content Box-->
                             <div class="content-box">
-                                <div class="title"><span class="date">28 <span>jul</span></span><strong>Largest</strong><br>Summer Meetup</div>
-                                <div class="text">There are many variations passag lorem Ipsum available but themajority have in suffered alteration finally end.</div>
-                                <a href="meeting-events.html" class="theme-btn btn-style-six">Join event</a>
-                                <a href="meeting-events.html" class="theme-btn btn-style-four">See details</a>
+                                <div class="title"><span class="date">28 <span>jul</span></span><strong>Event Name</strong><br>continues</div>
+                                <div class="text">There are many variations something something nice finally end.</div>
+                                <a href="meeting-events.html" class="theme-btn btn-style-six">Learn More</a>
+                                
                             </div>
                         </div>
                             
@@ -600,10 +613,10 @@
                         <div class="inner-column">
                             <!--Content Box-->
                             <div class="content-box">
-                                <div class="title"><span class="date">28 <span>jul</span></span><strong>Largest</strong><br>Summer Meetup</div>
-                                <div class="text">There are many variations passag lorem Ipsum available but themajority have in suffered alteration finally end.</div>
-                                <a href="meeting-events.html" class="theme-btn btn-style-six">Join event</a>
-                                <a href="meeting-events.html" class="theme-btn btn-style-four">See details</a>
+                                <div class="title"><span class="date">28 <span>jul</span></span><strong>Event Name</strong><br>continues</div>
+                                <div class="text">There are many variations something something nice finally end.</div>
+                                <a href="meeting-events.html" class="theme-btn btn-style-six">Learn More</a>
+                                
                             </div>
                         </div>
                         
@@ -623,11 +636,10 @@
                         <div class="inner-column">
                             <!--Content Box-->
                             <div class="content-box">
-                                <div class="title"><span class="date">28 <span>jul</span></span><strong>Largest</strong><br>Summer Meetup</div>
-                                <div class="text">There are many variations passag lorem Ipsum available but themajority have in suffered alteration finally end.</div>
-                                <a href="meeting-events.html" class="theme-btn btn-style-six">Join event</a>
-                                <a href="meeting-events.html" class="theme-btn btn-style-four">See details</a>
-                            </div>
+                                <div class="title"><span class="date">28 <span>jul</span></span><strong>Event Name</strong><br>continues</div>
+                                <div class="text">There are many variations passag something something nice finally end.</div>
+                                <a href="meeting-events.html" class="theme-btn btn-style-six">Learn More</a>
+                                
                         </div>
                         
                     </div>
@@ -650,7 +662,7 @@
                         <h2>Client Feedback</h2>
                         <h3>testimonials</h3>
                     </div>
-                    <div class="text">Lorem Ipsum is simply dummy text of the printing and Lorem Ipsum has been the great font.</div>
+                    <div class="text">something something nice</div>
                     
                     <ul class="thumbs-carousel">
                         <li><img src="images/resource/feedback-thumb-1.jpg" alt=""></li>
@@ -677,7 +689,7 @@
 							<div class="info-column">
 								<div class="content">
 									<div class="text">
-										<p>Lorem Ipsum is simply dummy tex the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+										<p>something something nice</p>
 										<p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 										<h4>Julia rose</h4>
 									</div>
@@ -687,7 +699,7 @@
 							<div class="info-column">
 								<div class="content">
 									<div class="text">
-										<p>Lorem Ipsum is simply dummy tex the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+										<p>something something nice</p>
 										<p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 										<h4>Julia rose</h4>
 									</div>
@@ -697,7 +709,7 @@
 							<div class="info-column">
 								<div class="content">
 									<div class="text">
-										<p>Lorem Ipsum is simply dummy tex the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+										<p>something something nice</p>
 										<p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 										<h4>Julia rose</h4>
 									</div>
@@ -708,7 +720,7 @@
 							<div class="info-column">
 								<div class="content">
 									<div class="text">
-										<p>Lorem Ipsum is simply dummy tex the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+										<p>something something nice</p>
 										<p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 										<h4>Julia rose</h4>
 									</div>
@@ -718,7 +730,7 @@
 							<div class="info-column">
 								<div class="content">
 									<div class="text">
-										<p>Lorem Ipsum is simply dummy tex the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+										<p>something something nice</p>
 										<p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 										<h4>Julia rose</h4>
 									</div>
@@ -728,7 +740,7 @@
 							<div class="info-column">
 								<div class="content">
 									<div class="text">
-										<p>Lorem Ipsum is simply dummy tex the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+										<p>something something nice</p>
 										<p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 										<h4>Julia rose</h4>
 									</div>
@@ -756,69 +768,19 @@
         	<div class="title-box clearfix">
                 <!--Sec Title-->
                 <div class="sec-title">
-                    <h2>Latest News</h2>
-                    <h3>FROM Blog</h3>
+                    <h2>Instagram</h2>
+                    <h3>Visit Our Social Media</h3>
                 </div>
-                <div class="text pull-left">Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum</div>
-                <a class="theme-btn btn-style-five see-events pull-right" href="#">See all News</a>
-            </div>
-            
-            <div class="clearfix">
-            	<div class="two-item-carousel">
-                    <!--News Block-->
-                    <div class="news-block">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image">
-                                    <img src="images/resource/author-1.jpg" alt="" />
-                                </figure>
-                            </div>
-                            <h3><a href="#">Blue World</a></h3>
-                            <h4>Amazing place to feel the blue sky</h4>
-                            <!--Author-->
-                            <ul class="author">
-                                <li>Posted By <span>Jhon Russel</span></li>
-                                <li>10 hours ago</li>
-                            </ul>
-                            <div class="text">Lorem Ipsum is simply dummy tex the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s . . .</div>
-                        </div>
-                    </div>
-                    
-                    <!--News Block-->
-                    <div class="news-block">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image">
-                                    <img src="images/resource/author-2.jpg" alt="" />
-                                </figure>
-                            </div>
-                            <h3><a href="#">Dream City</a></h3>
-                            <h4>World most dream city for tourist</h4>
-                            <!--Author-->
-                            <ul class="author">
-                                <li>Posted By <span>Jhon Russel</span></li>
-                                <li>10 hours ago</li>
-                            </ul>
-                            <div class="text">Lorem Ipsum is simply dummy tex the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s . . .</div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-            
+                <div class="text pull-left">
+                something something nice</div>
+                <a class="theme-btn btn-style-five see-events pull-right" href="#">Follow Us</a>
+            </div>        
+                  
         </div>
     </section>
-    <!--News Section-->
     
-    <!--NewsLetter-->
-    <section class="newsletter-section" style="background-image:url(images/background/2.jpg);">
-    	<div class="auto-container">
-        	<h2>Subscribe Our Newsletter</h2>
-            <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum dummy text</div>
-            <a class="theme-btn btn-style-two" href="#">Subscribe</a>
-        </div>
-    </section>
-    <!--NewsLetter-->
+    
+    
     
     <!--Main Footer-->
    <?php include'footer.php';?>
