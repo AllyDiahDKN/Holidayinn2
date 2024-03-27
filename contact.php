@@ -43,26 +43,24 @@
     <?php include'hidden-bar.php';?>
 <!--end of Hidden Navigation Bar-->
     
-    <!--Map Section-->
-    <section class="map-section">
-    	<div class="map-outer">
-   , 39.286674
-			<!--Map Canvas-->
-            <div class="map-canvas"
-                data-zoom="13"
-                data-lat="-6.813157"
-                data-lng="39.286674"			  
-                data-type="roadmap"
-                data-hue="#ffc400"
-                data-title="Envato"
-                data-content="Azikiwe Street TZ, Upanga Rd, Dar Es Salaam 11105<br><a href='reservations@holidayinn.co.tz'>reservations@holidayinn.co.tz</a>"							
-                style="height: 680px;">
-            </div>
-
+ <!-- Map Section -->
+<section class="map-section">
+    <div class="map-outer">
+        <!-- Map Canvas -->
+        <div class="map-canvas"
+            data-zoom="13"
+            data-lat="-6.813309"
+            data-lng="39.286752"
+            data-type="roadmap"
+            data-hue="#ffc400"
+            data-title="Holiday Inn Hotel"
+            data-content="Holiday Inn Hotel, Dar es Salaam<br><a href='https://maps.google.com/?q=-6.813309,39.286752' target='_blank'>Open in Google Maps</a>"
+            style="height: 680px;">
         </div>
-    </section>
-	<!--End Map Section-->
-    
+    </div>
+</section>
+<!-- End Map Section -->
+
     <!--Contact Section-->
     <section class="contact-section">
     	<div class="auto-container">
